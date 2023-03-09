@@ -1,0 +1,68 @@
+.chap{
+    background-color: aliceblue;
+    width: 230px;
+    height: 210px;
+    position: relative;
+    left: 200px;
+    top: 30px;
+    padding-left: 25px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+h1{ text-align: center;}
+.box2{ margin-left: 150px;}
+.box1{
+    background-color: coral;
+    width: 500px;
+    height: 270px;
+    position: relative;
+    left: 150px;
+    top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 5px 5px red;
+}
+img{
+    position: relative;
+    top: -175px;
+    left: 80px;
+}
+h3{ position: relative;
+top: -175px;
+left: 85px;
+}
+p{
+    position: relative;
+    top: -175px;
+    left: 85px;  
+    font-size: 8px;
+}
+.box{
+    position: relative;
+    top: -165px;
+    left: 85px;  
+    font-size: 8px;  
+    border-radius: 10px;
+    border-style: none;
+    height: 20px;
+}
+.box2{ border-radius: 10px;
+background-color: coral;
+color: aliceblue;
+border-style: none;}
+body{
+    background-image: url(../sharikchala.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.open-modal{
+    background: linear-gradient(-45deg, rgb(143, 227, 255), blue, lightpink, magenta);
+background-size: 400% 400%;
+animation: gradient 10s ease infinite;
+border: none;
+outline: none;
+border-radius: 5px;
+padding: 3px;
+
+}
